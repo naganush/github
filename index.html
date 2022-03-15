@@ -1,0 +1,134 @@
+<!--version of html -->
+<!DOCTYPE html>
+<!-- emmet plugin, type html + enter -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!--meta tells what to display when our webpage is searched &
+      utf-8 includes all the symbols, it means all the characters used are encoded using UTF-8-->
+  <meta name="description" content="my first webpage"><!-- eg in google when searched for our site, a quick description will be given-->
+  <title>😀 personal site</title>
+  <!--title of the site which shows up in main tab-->
+</head>
+
+<body>
+  <img src="https://www.motortrend.com/uploads/2021/10/2022-Dodge-Charger-12.jpg" alt="dodge charger" style="width:500px;height:500px;">
+  <!--if image is not rendered
+    properly then show alternate text 'dodge charger'-->
+  <h1> Nagendran</h1>
+  <p>
+    <em>Advanced analytics manager</em><!-- em  stands for empasize use this instead of italics -->
+  </p>
+  <!--table can be used to get text right next to image-->
+  <table cellspacing="20">
+    <!--cellspacing is used to give some space between two cells (between two td's)-->
+    <tr>
+      <td><img src="https://www.motortrend.com/uploads/2021/10/2022-Dodge-Charger-12.jpg" alt="Dodge Charger" style="width:500px;height:500px;"> </td>
+      <td>
+        <h1>Nagendran</h1>
+        <em>Advanced Analytics Manager</em>
+      </td>
+    </tr>
+  </table>
+  <p>
+    here is my <a href="https://www.google.com">Bio</a><!-- "a" is html element and href is attribute -->
+  </p>
+  <hr size="3" noshade>
+  <h3><b>Education</b></h3>
+  <ul>
+    <!--unordered list -->
+    <li>
+      KV airforce school
+    <li style="margin-left:2em">i did my schooling till 10th here</li>
+    <li style="margin-left:4em">post i moved to another state</li>
+    </li>
+    <li>
+      Maamallan institute of technology
+    </li>
+  </ul>
+    <hr size="3" noshade>
+  <h3>Hobbies</h3>
+
+  <ol type="i">
+    <!--ordered list-->
+    <li>
+      Playing games
+    </li>
+    <li>
+      <a href="Driving.html">Driving</a>
+    </li>
+  </ol>
+      <hr size="3" noshade>
+  <h3> Profressional Experience</h3>
+
+  <!-- TABLE BEGIN-->
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Organization</th>
+        <th>Role</th>
+      </tr>
+    </thead>
+    <tr>
+      <td>2010 - 2013</td>
+      <td>XYZ pvt ltd</td>
+      <td>ETL developer</td>
+    </tr>
+    <tr>
+      <td>2013 - 2016</td>
+      <td>YZA Inc.</td>
+      <td>BI developer</td>
+    </tr>
+    <tr>
+      <td>2016 - present</td>
+      <td>ADR Inc.</td>
+      <td>Manager</td>
+    </tr>
+  </table>
+      <hr size="3" noshade>
+  <h3>Skills</h3>
+
+  <!--nested table(table within another table) is used here-->
+  <table border="1">
+    <tr>
+      <td>
+        <table cellspacing="10"><!--this table was first created followed by outer table stmt-->
+          <thead>
+            <th>Technology</th>
+            <th>Stars</th>
+          </thead>
+          <tr>
+            <td>SQL</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>ETL</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table cellspacing="10">
+          <thead>
+            <th>Technology</th>
+            <th>Stars</th>
+          </thead>
+          <tr>
+            <td>Tableau</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Omniture</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <h3>Contact me</h3>
+  <a href="Contact.html">Go to this page to get my contact details</a>
+</body>
+
+</html>
